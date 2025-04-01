@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expocal Travel - Discover Incredible India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Expocal</h1>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="guides.html">My Guides</a></li>
+            <li><a href="hidden-gems.html">Hidden Gems</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="auth-links">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="register.html" class="register-btn">Register</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Incredible India</h1>
+            <p>Experience the magic of ancient traditions, vibrant cultures, and breathtaking landscapes</p>
+            <a href="#packages" class="cta-button">Explore Packages</a>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section id="destinations" class="destinations">
+        <h2 class="section-title">Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Taj Mahal">
+                </div>
+                <div class="destination-info">
+                    <h3>Taj Mahal, Agra</h3>
+                    <p>Marvel at the world's most beautiful monument of love</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Jaipur Palace">
+                </div>
+                <div class="destination-info">
+                    <h3>Jaipur, Rajasthan</h3>
+                    <p>Explore the majestic Pink City and royal palaces</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kerala Backwaters">
+                </div>
+                <div class="destination-info">
+                    <h3>Kerala Backwaters</h3>
+                    <p>Experience serenity in God's Own Country</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Varanasi Ghats">
+                </div>
+                <div class="destination-info">
+                    <h3>Varanasi Ghats</h3>
+                    <p>Witness the spiritual heart of India</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Goa Beaches">
+                </div>
+                <div class="destination-info">
+                    <h3>Goa Beaches</h3>
+                    <p>Relax in paradise with golden sands and blue waters</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ladakh Mountains">
+                </div>
+                <div class="destination-info">
+                    <h3>Himalayas, Ladakh</h3>
+                    <p>Adventure in the majestic mountain landscapes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Packages -->
+    <section id="packages" class="packages">
+        <h2 class="section-title">Our Packages</h2>
+        <div class="package-grid">
+            <div class="package-card">
+                <h3>Golden Triangle Tour</h3>
+                <p class="price" data-price="29999">From ₹29,999</p>
+                <ul>
+                    <li><i class="fas fa-clock"></i> 6 Days, 5 Nights</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Delhi, Agra, Jaipur</li>
+                    <li><i class="fas fa-hotel"></i> Luxury Accommodation</li>
+                    <li><i class="fas fa-user-tie"></i> Private Guide & Transport</li>
+                </ul>
+                <a href="#contact" class="package-button">Book Now</a>
+            </div>
+            <div class="package-card">
+                <h3>Kerala Experience</h3>
+                <p class="price" data-price="34999">From ₹34,999</p>
+                <ul>
+                    <li><i class="fas fa-clock"></i> 7 Days, 6 Nights</li>
+                    <li><i class="fas fa-water"></i> Houseboat Stay</li>
+                    <li><i class="fas fa-spa"></i> Ayurvedic Spa</li>
+                    <li><i class="fas fa-theater-masks"></i> Cultural Shows</li>
+                </ul>
+                <a href="#contact" class="package-button">Book Now</a>
+            </div>
+            <div class="package-card">
+                <h3>Royal Rajasthan</h3>
+                <p class="price" data-price="39999">From ₹39,999</p>
+                <ul>
+                    <li><i class="fas fa-clock"></i> 8 Days, 7 Nights</li>
+                    <li><i class="fas fa-crown"></i> Palace Hotels</li>
+                    <li><i class="fas fa-desert"></i> Desert Safari</li>
+                    <li><i class="fas fa-utensils"></i> Traditional Cuisine</li>
+                </ul>
+                <a href="#contact" class="package-button">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Expocal Travel is your gateway to experiencing the rich cultural heritage and diverse landscapes of India. We specialize in creating unforgettable journeys that showcase the best of Incredible India.</p>
+                <p>From the majestic Himalayas to the serene backwaters of Kerala, we craft experiences that blend luxury, culture, and adventure.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3>150+</h3>
+                    <p>Happy Travelers</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>50+</h3>
+                    <p>Destinations</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-award"></i>
+                    <h3>1+</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="golden">Golden Triangle Tour</option>
+                    <option value="kerala">Kerala Experience</option>
+                    <option value="rajasthan">Royal Rajasthan</option>
+                </select>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Tourism Street, Vadodra, Gujarat, India</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9136504814</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@expocal.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Expocal Travel</h3>
+                <p>Your Gateway to Incredible India</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="guides.html">My Guides</a></li>
+                    <li><a href="hidden-gems.html">Hidden Gems</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Expocal Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="tel:+911234567890" class="emergency-button">
+            <i class="fas fa-phone-alt"></i>
+            <span>Emergency</span>
+        </a>
+        <a href="https://www.google.com/maps" target="_blank" class="tracking-button">
+            <i class="fas fa-location-dot"></i>
+            <span>Live Track</span>
+        </a>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navItems = document.querySelectorAll('.nav-links a');
+        
+        // Toggle hamburger menu
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Handle navigation clicks
+        navItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                // If it's not a link to another page (guides.html or hidden-gems.html)
+                if (!this.getAttribute('href').includes('.html')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        // Close the hamburger menu
+                        hamburger.classList.remove('active');
+                        navLinks.classList.remove('active');
+                        
+                        // Smooth scroll to the section
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html> 
